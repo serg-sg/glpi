@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9887e541e216e7de1c48bfb43056647a",
+    "content-hash": "9dca42fd927209d5b210c8f5f1d6ea2b",
     "packages": [
         {
             "name": "blueimp/jquery-file-upload",
@@ -153,24 +153,24 @@
         },
         {
             "name": "elvanto/litemoji",
-            "version": "2.0.2",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elvanto/litemoji.git",
-                "reference": "a71f785642a93194d0b88edebcc5d6ca0b07d282"
+                "reference": "acd6fd944814683983dcdfcf4d33f24430631b77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elvanto/litemoji/zipball/a71f785642a93194d0b88edebcc5d6ca0b07d282",
-                "reference": "a71f785642a93194d0b88edebcc5d6ca0b07d282",
+                "url": "https://api.github.com/repos/elvanto/litemoji/zipball/acd6fd944814683983dcdfcf4d33f24430631b77",
+                "reference": "acd6fd944814683983dcdfcf4d33f24430631b77",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
+                "php": ">=7.0"
             },
             "require-dev": {
-                "milesj/emojibase": "5.0.1",
-                "phpunit/phpunit": "^5.0"
+                "milesj/emojibase": "6.0.*",
+                "phpunit/phpunit": "^6.0"
             },
             "type": "library",
             "autoload": {
@@ -187,7 +187,7 @@
                 "emoji",
                 "php-emoji"
             ],
-            "time": "2020-06-08T05:24:49+00:00"
+            "time": "2020-11-27T05:08:33+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1973,6 +1973,10 @@
                 {
                     "url": "https://github.com/ramsey",
                     "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/ramsey/uuid",
+                    "type": "tidelift"
                 }
             ],
             "time": "2020-08-18T17:17:46+00:00"
@@ -3954,6 +3958,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
@@ -4723,6 +4728,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
+            "abandoned": "https://github.com/fabpot/local-php-security-checker",
             "time": "2019-11-01T13:20:14+00:00"
         },
         {
