@@ -1204,20 +1204,20 @@
         },
         {
             "name": "mexitek/phpcolors",
-            "version": "v1.0.1",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mexitek/phpColors.git",
-                "reference": "37a374e21649c25e348c838d70c7d3c76584d47e"
+                "reference": "4043974240ca7dc3c2bec3c158588148b605b206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mexitek/phpColors/zipball/37a374e21649c25e348c838d70c7d3c76584d47e",
-                "reference": "37a374e21649c25e348c838d70c7d3c76584d47e",
+                "url": "https://api.github.com/repos/mexitek/phpColors/zipball/4043974240ca7dc3c2bec3c158588148b605b206",
+                "reference": "4043974240ca7dc3c2bec3c158588148b605b206",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": "^7.2|^8.0"
             },
             "require-dev": {
                 "nette/tester": "^2.3",
@@ -1249,7 +1249,7 @@
                 "frontend",
                 "ui"
             ],
-            "time": "2020-08-06T05:32:50+00:00"
+            "time": "2021-11-26T13:19:08+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -1973,6 +1973,10 @@
                 {
                     "url": "https://github.com/ramsey",
                     "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/ramsey/uuid",
+                    "type": "tidelift"
                 }
             ],
             "time": "2020-08-18T17:17:46+00:00"
@@ -3954,6 +3958,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
@@ -4723,6 +4728,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
+            "abandoned": "https://github.com/fabpot/local-php-security-checker",
             "time": "2019-11-01T13:20:14+00:00"
         },
         {
