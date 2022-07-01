@@ -15,7 +15,7 @@
         "chartist": "^0.11.4",
         "chartist-plugin-legend": "^0.6.2",
         "chartist-plugin-tooltips-updated": "^0.1.2",
-        "codemirror": "^5.51.0",
+        "codemirror": "^6.0.1",
         "cytoscape": "^3.13.0",
         "cytoscape-canvas": "^3.0.1",
         "cytoscape-context-menus": "^3.0.7",
